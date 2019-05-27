@@ -58,7 +58,7 @@ public class Server extends AbstractVerticle{
 		});
 	
 		//Creamos el Servidor http
-		vertx.createHttpServer().requestHandler(router).listen(8080);
+		//vertx.createHttpServer().requestHandler(router).listen(8080);
 	}
 	
 }
